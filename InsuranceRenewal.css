@@ -1,0 +1,104 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    background-color: #001f3f;
+    color: #fff;
+  }
+  
+  .insurance-renewal-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: auto;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .logo img {
+    height: 50px;
+    margin-right: 10px;
+    width: 150px;
+  }
+  
+  .navbar a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #021526;
+    font-weight: 500;
+  }
+  
+  .navbar a:hover {
+    color: #ffd700;
+  }
+  
+  .content {
+    text-align: center;
+    padding: 50px;
+    color: #f9f9f9;
+  }
+  
+  .content h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #ffd700;
+  }
+  
+  .renewal-form {
+    background: #003366;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffd700;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    color: #001f3f;
+  }
+  
+  .renew-btn {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #ffd700;
+    color: #001f3f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .renew-btn:hover {
+    background-color: #ffbf00;
+  }
+  

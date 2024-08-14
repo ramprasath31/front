@@ -1,0 +1,147 @@
+/* Ensure the body and html take up full height and allow scrolling */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+/* Container for the insurance application form */
+.insurance-application-container {
+    width: 100%; /* Take up the full width of the viewport */
+    max-width: 600px; /* Set a max-width to the container */
+    margin: 20px auto; /* Center the container and add margin */
+    padding: 20px;
+    background-color: #fefefe; /* Background color of the form */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+/* Center and align the heading */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Center and align the paragraph */
+p {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+/* Standard styles for form groups */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Standard styles for labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Input fields and select boxes */
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Flexbox layout for name inputs */
+.name-inputs {
+    display: flex;
+    gap: 10px;
+}
+
+/* Ensure name inputs take equal space */
+.name-inputs input {
+    flex: 1;
+}
+
+/* Flexbox layout for address inputs */
+.address-inputs {
+    display: flex;
+    gap: 10px;
+}
+
+/* Ensure address inputs take equal space */
+.address-inputs input,
+.address-inputs select {
+    flex: 1;
+}
+
+/* Style the submit button */
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Hover effect for the submit button */
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Style the captcha verification */
+.captcha {
+    display: flex;
+    align-items: center;
+}
+
+/* Style the captcha checkbox */
+.captcha input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Style the captcha label */
+.captcha span {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Error message styles */
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+/* Button styles with shadow effect */
+button {
+    background-color: #5c4e4e;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect with shadow */
+button:hover {
+    background-color: #4b3c3c;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); /* Shadow effect */
+}
+
+/* Focus and active state shadow effect */
+button:focus,
+button:active {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.35); /* Slightly stronger shadow */
+    outline: none;
+}
